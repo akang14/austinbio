@@ -1,26 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+
 </head>
-<h1>Student Bio</h1>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: "Georgia", Times New Roman, Times, serif;
+        font-size: 18px;
+        background: #efeee7;
+        color: #333
+    }
 
-<h2>Austin Kang</h2>
+    header {
+        background-color: #333333;
+    }
 
-<img src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/41096933_10209600753694167_1285507278178353152_n.jpg?_nc_cat=110&_nc_ht=scontent-lax3-1.xx&oh=cf49310f7cd205e79e1ae6515e8db6b1&oe=5D69004D" width="150" height="150"/>
-<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+    h1 {
+        margin-top: 0px;
+        margin-bottom: 15px;
+        padding: 15px;
+        font-size: 28px;
+        color: #eee;
+        text-align: center;
+        background-color: #333333;
+    }
 
-<h2>Contact Info</h2>
-<ul>
-    <li><strong>Email: </strong> <a href="mailto: austinkang14@gmail.com">austinkang14@gmail.com</a></li>
+    h2 {
+        font-size: 24px;
+        width: 1024px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        margin-left: 50px;
+        margin-right: 50px;
+        text-align: left;
+        line-height: 1.5
+    }
 
-    <li><strong>Github: </strong><a href="https://github.com/akang14" target="_blank">akang14</a></li>
-    
-    <li><strong>Portfolio: </strong><a href="">coming soon</a></li>
-</ul>
+    img {
+        margin-left: 50px;
+        margin-right: 15px;
+        display: block;
+        
+    }
+
+    p {
+        margin-top: 0;
+        text-align: left;
+        font-size: 15px;
+        list-style-position:inside
+    }
+
+    ul {
+        margin-left: 20px;
+        text-align: left;
+        font-size: 15px;
+        list-style-position: inside;
+    }
+</style>
+
+<body>
+    <header>
+        <h1>Student Bio</h1>
+    </header>
+
+    <div class="container" style="width: 1024px; margin: 0 auto">
+
+        <section id="main-bio" style="width: 70%; float: left">
+
+            <h2>Austin Kang</h2>
+
+            <img id="bio-image"
+                src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/41096933_10209600753694167_1285507278178353152_n.jpg?_nc_cat=110&_nc_ht=scontent-lax3-1.xx&oh=cf49310f7cd205e79e1ae6515e8db6b1&oe=5D69004D"
+                width="200" height="200" style="float: left" />
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae qui quae consequatur sunt fuga eos itaque,
+                velit atque aliquam voluptate et impedit nemo dolores unde, numquam in autem fugit incidunt?
+            </p>
+        </section>
+
+        <section id="contact-info" style="width: 30%; float: left">
+            <h2>Contact Info</h2>
+            <ul>
+                <li><strong>Email: </strong><a href="mailto: austinkang14@gmail.com" style="color:#d21034">austinkang14@gmail.com</a></li>
+
+                <li><strong>Github: </strong><a href="https://github.com/akang14" target="_blank" style="color: #d21034">akang14</a></li>
+
+                <li><strong>Portfolio: </strong><a href="" style="color: #d21034">coming soon</a></li>
+            </ul>
+        </section>
+    </div>
 
 </body>
+
 </html>
